@@ -82,12 +82,11 @@ const Symptom = () => {
         Clear
       </button>
 
-      {input && matchedSymptoms.length === 0 && (
+      {input.trim().length > 5 && matchedSymptoms.length === 0 && (
         <div className="p-3 bg-gray-100 rounded mb-4">
           ⚠️ No valid symptoms recognized.
         </div>
       )}
-
       {matchedSymptoms.map((symptom, index) => (
         <div key={index} className="mb-6">
           <h3 className="capitalize mb-2">{symptom}</h3>
