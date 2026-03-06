@@ -141,5 +141,177 @@ export const mockResponses: MockResponses = {
         { text: "Possible causes: cold, flu, or allergies.", severity: "warning" },
         { text: "Recommendation: Stay hydrated and rest.", severity: "info" },
         { text: "Consult a doctor if symptoms worsen.", severity: "danger" }
-    ]
+    ], "abdominal pain": [
+        { text: "Possible causes: indigestion, infection, or inflammation.", severity: "warning" },
+        { text: "Recommendation: Rest and eat light meals.", severity: "info" },
+        { text: "Seek medical attention if severe or persistent.", severity: "danger" }
+    ],
+
+    "blurred vision": [
+        { text: "Possible causes: eye strain, fatigue, or underlying health issues.", severity: "warning" },
+        { text: "Recommendation: Rest eyes and reduce screen time.", severity: "info" },
+        { text: "Consult a doctor if persistent or sudden.", severity: "danger" }
+    ],
+
+    "cold hands or feet": [
+        { text: "Possible causes: poor circulation or low temperature.", severity: "warning" },
+        { text: "Recommendation: Keep warm and exercise fingers/toes.", severity: "info" },
+        { text: "Seek medical advice if persistent.", severity: "danger" }
+    ],
+
+    "chest tightness": [
+        { text: "Possible causes: anxiety, asthma, or heart issues.", severity: "warning" },
+        { text: "Recommendation: Rest and relax.", severity: "info" },
+        { text: "Seek immediate medical attention if severe.", severity: "danger" }
+    ],
+
+    "heartburn": [
+        { text: "Possible causes: acid reflux or diet.", severity: "warning" },
+        { text: "Recommendation: Avoid spicy/fatty foods.", severity: "info" },
+        { text: "Consult a doctor if frequent.", severity: "danger" }
+    ],
+
+    "feeling cold": [
+        { text: "Possible causes: fever or low temperature.", severity: "warning" },
+        { text: "Recommendation: Keep warm and rest.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "feeling hot": [
+        { text: "Possible causes: fever, infection, or hormonal changes.", severity: "warning" },
+        { text: "Recommendation: Stay hydrated.", severity: "info" },
+        { text: "Seek medical advice if temperature >39°C.", severity: "danger" }
+    ],
+
+    "loss of taste": [
+        { text: "Possible causes: cold, flu, or COVID-19.", severity: "warning" },
+        { text: "Recommendation: Rest and monitor.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "loss of smell": [
+        { text: "Possible causes: viral infection or nasal congestion.", severity: "warning" },
+        { text: "Recommendation: Rest and monitor.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "skin irritation": [
+        { text: "Possible causes: allergy, eczema, or infection.", severity: "warning" },
+        { text: "Recommendation: Keep area clean and moisturized.", severity: "info" },
+        { text: "See a doctor if spreading or severe.", severity: "danger" }
+    ],
+
+    "sweaty palms": [
+        { text: "Possible causes: anxiety or hormonal changes.", severity: "warning" },
+        { text: "Recommendation: Relaxation techniques.", severity: "info" },
+        { text: "Consult a doctor if severe or persistent.", severity: "danger" }
+    ],
+
+    "weight loss": [
+        { text: "Possible causes: illness, diet, or stress.", severity: "warning" },
+        { text: "Recommendation: Maintain healthy diet.", severity: "info" },
+        { text: "Consult a doctor if unexplained.", severity: "danger" }
+    ],
+
+    "weight gain": [
+        { text: "Possible causes: diet, hormonal changes, or inactivity.", severity: "warning" },
+        { text: "Recommendation: Exercise and balanced diet.", severity: "info" },
+        { text: "Consult a doctor if rapid or unexplained.", severity: "danger" }
+    ],
+
+    "nosebleed": [
+        { text: "Possible causes: dry air, injury, or high blood pressure.", severity: "warning" },
+        { text: "Recommendation: Pinch nose and lean forward.", severity: "info" },
+        { text: "Seek medical advice if frequent or severe.", severity: "danger" }
+    ],
+
+    "hair loss": [
+        { text: "Possible causes: stress, hormonal changes, or genetics.", severity: "warning" },
+        { text: "Recommendation: Maintain healthy diet.", severity: "info" },
+        { text: "Consult a doctor if sudden or patchy.", severity: "danger" }
+    ],
+
+    "frequent urination": [
+        { text: "Possible causes: diabetes, infection, or high fluid intake.", severity: "warning" },
+        { text: "Recommendation: Monitor intake and symptoms.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "thirst": [
+        { text: "Possible causes: dehydration or high sugar intake.", severity: "warning" },
+        { text: "Recommendation: Drink water regularly.", severity: "info" },
+        { text: "Seek medical advice if excessive.", severity: "danger" }
+    ],
+
+    "frequent headaches": [
+        { text: "Possible causes: stress, dehydration, or migraine.", severity: "warning" },
+        { text: "Recommendation: Drink water and rest.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "irritability": [
+        { text: "Possible causes: lack of sleep, stress, or hormonal changes.", severity: "warning" },
+        { text: "Recommendation: Rest and relaxation techniques.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "anxiety": [
+        { text: "Possible causes: stress or mental health issues.", severity: "warning" },
+        { text: "Recommendation: Relaxation and breathing exercises.", severity: "info" },
+        { text: "Seek medical or therapy support if severe.", severity: "danger" }
+    ],
+
+    "depression": [
+        { text: "Possible causes: mental health disorder or stress.", severity: "warning" },
+        { text: "Recommendation: Seek support from friends/family.", severity: "info" },
+        { text: "Consult a mental health professional.", severity: "danger" }
+    ],
+
+    "confusion": [
+        { text: "Possible causes: dehydration, infection, or neurological issues.", severity: "warning" },
+        { text: "Recommendation: Rest and monitor.", severity: "info" },
+        { text: "Seek immediate medical attention if sudden.", severity: "danger" }
+    ],
+
+    "memory problems": [
+        { text: "Possible causes: stress, fatigue, or neurological issues.", severity: "warning" },
+        { text: "Recommendation: Rest and mental exercises.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "tingling sensation": [
+        { text: "Possible causes: nerve compression, poor circulation, or deficiency.", severity: "warning" },
+        { text: "Recommendation: Gentle movement and stretching.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "numbness": [
+        { text: "Possible causes: nerve issue or circulation problem.", severity: "warning" },
+        { text: "Recommendation: Rest and monitor.", severity: "info" },
+        { text: "Seek medical advice if sudden or severe.", severity: "danger" }
+    ],
+
+    "paleness": [
+        { text: "Possible causes: anemia, low blood pressure, or illness.", severity: "warning" },
+        { text: "Recommendation: Eat iron-rich foods.", severity: "info" },
+        { text: "Consult a doctor if persistent.", severity: "danger" }
+    ],
+
+    "bruising easily": [
+        { text: "Possible causes: injury, vitamin deficiency, or blood disorder.", severity: "warning" },
+        { text: "Recommendation: Monitor and avoid trauma.", severity: "info" },
+        { text: "Consult a doctor if frequent or unexplained.", severity: "danger" }
+    ],
+
+    "throat tightness": [
+        { text: "Possible causes: anxiety, allergy, or infection.", severity: "warning" },
+        { text: "Recommendation: Rest and monitor.", severity: "info" },
+        { text: "Seek immediate medical attention if severe.", severity: "danger" }
+    ],
+
+    "swollen lymph nodes": [
+        { text: "Possible causes: infection or immune response.", severity: "warning" },
+        { text: "Recommendation: Rest and monitor.", severity: "info" },
+        { text: "Consult a doctor if persistent or painful.", severity: "danger" }
+    ],
 };
