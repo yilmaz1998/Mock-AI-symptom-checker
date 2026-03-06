@@ -36,7 +36,7 @@ const Symptom = () => {
 
   return (
     <div className="max-w-2xl mx-auto mt-16 px-4">
-      <h1 className="text-3xl font-bold mb-4">Mock AI Symptom Checker</h1>
+      <h1 className="text-3xl mb-4">Mock AI Symptom Checker</h1>
 
       <p className="text-gray-600 mb-6">
         Enter one or more symptoms separated by spaces. Example:{" "}
@@ -70,14 +70,14 @@ const Symptom = () => {
       
       <Link to="/">
       <button
-        className="px-4 py-2 bg-red-300 rounded hover:bg-red-400 mt-3 mb-6 mr-3"
+        className="px-4 py-2 bg-red-300 rounded hover:bg-red-400 mt-3 mb-6 mr-3 transition"
       >
         Go Back
       </button>
       </Link>
       <button
         onClick={clearInput}
-        className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 mt-3 mb-6"
+        className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 mt-3 mb-6 transition"
       >
         Clear
       </button>
@@ -90,7 +90,7 @@ const Symptom = () => {
 
       {matchedSymptoms.map((symptom, index) => (
         <div key={index} className="mb-6">
-          <h3 className="font-semibold capitalize mb-2">{symptom}</h3>
+          <h3 className="capitalize mb-2">{symptom}</h3>
 
           {mockResponses[symptom].map((res: any, i: number) => (
             <div
